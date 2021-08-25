@@ -1,6 +1,13 @@
 h1, h2, h3, h4 {color:lightseagreen}
 
+
+/* back ground color light grey on large screens and white on smaller screens */
 body {
     background-color: whitesmoke;
   }
+
+@media (max-width: 992px) {
+    body {
+      background-color: white;
+    }
 
