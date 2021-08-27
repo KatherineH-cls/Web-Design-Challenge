@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Create a website showcasing results from Weather Latitude Investigation -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latitude vs cloudiness</title>
+    <!-- Bootstrap style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Javascript / Popper bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+  </head>
+
+
+<body>
+    <!-- nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand btn" style="background-color:darkcyan; color:white" href="../index.html">Latitude</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page" >
+                  Plots
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="../visualisations/temperature.html">Temperature</a></li>
+                  <li><a class="dropdown-item" href="../visualisations/humidity.html">Humidity</a></li>
+                  <li><a class="dropdown-item" href="../visualisations/cloudiness.html">Cloudiness</a></li>
+                  <li><a class="dropdown-item" href="../visualisations/wind_speed.html">Windspeed</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../visualisations/comparisons.html">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Data</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- page content-->  
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <h1>Latitude vs Cloudiness</h1>
+                <hr>
+              <div class="bg-white px-5">
+                <img src="../Resources/assets/images/Fig3.png" class="w-100 img-fluid " alt="temperature chart">
+                <p>The data indicates that there is little correlation between cloudiness and latitude. It may be that other factors are more important than latitude eg land features, land / water mass.  It also may be that cloudiness is measured at a particular time of day, whereas in some climates, the clouds build up over the course of the day and then dissipate as rain falls.  More information as to how cloudiness is calculated and whether or not it takes into consideration the whole of the day is needed.  A look at the distribution of cloudiness values show a higher concentration at 0% cloudiness and 100% cloudiness than for the values in between.  This data is probably best interpreted in conjuction with rainfall data, which was not collected as part of this data set</p>
+                <br>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
