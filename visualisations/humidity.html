@@ -49,20 +49,64 @@
         </div>
       </nav>
 
-    <!-- page content-->  
+
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-8">
-                <h1>Latitude vs Humidity</h1>
-                <hr>
-              <div class="bg-white px-5">
-                <img src="../Resources/assets/images/Fig2.png" class="w-100 img-fluid " alt="temperature chart">
-                <p>The data indicates that there is little correlation between humidity and latitude.  This may seem counter-intuitive, because tropical places near the equator are perceived as being areas of high humidity.  In order to make sense of this, it is necessary to understand the measure of humidity.  When humidity data is given as a percentage (as it is here), it is a measure of relative humidity, relative to the total amount of moisture that could be held by the air.  The amount of moisture that can be held by the air is strongly dependent on the temperature of the air.  Simplistically, air with 100 % humidty at 18 deg C holds a lot less moisture that air with 100 % humidity at 31 deg C.  This is why tropical climates feel more humid; there is more moisture in the air.  To determine if there is a correlation between latitude and humidity, it would be better to look at absolute humidity rather than relative humidity.</p>
-                <br>
+      <div class="row justify-content-center">
+          <!-- page content-->  
+          <div class="col-8">
+            <h1>Latitude vs Humidity</h1>
+            <hr>
+          <div class="bg-white px-5">
+            <img src="../Resources/assets/images/Fig2.png" class="w-100 img-fluid " alt="temperature chart">
+            <p>The data indicates that there is little correlation between humidity and latitude.  This may seem counter-intuitive, because tropical places near the equator are perceived as being areas of high humidity.  In order to make sense of this, it is necessary to understand the measure of humidity.  When humidity data is given as a percentage (as it is here), it is a measure of relative humidity, relative to the total amount of moisture that could be held by the air.  The amount of moisture that can be held by the air is strongly dependent on the temperature of the air.  Simplistically, air with 100 % humidty at 18 deg C holds a lot less moisture that air with 100 % humidity at 31 deg C.  This is why tropical climates feel more humid; there is more moisture in the air.  To determine if there is a correlation between latitude and humidity, it would be better to look at absolute humidity rather than relative humidity.</p>
+            <br>
+          </div>
+        </div>
+      
+  
+          <!-- side bar --> 
+          <div class="col-lg-4">
+            <h3>Visualizations</h3>  
+            <hr>
+            <div class="container">
+              <div class="row row-cols-2 row-cols-sm-4 row-cols-lg-2 bg-white">
+                <div class="col">
+                  <a href="../visualisations/temperature.html">
+                    <figure class="figure">
+                      <img src="../Resources/assets/images/Fig1.png" class="img-fluid" alt="temperature chart">
+                      <figcaption class="figure-caption text-center">Temperature</figcaption>
+                    </figure>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="../visualisations/humidity.html">
+                    <figure class="figure">
+                      <img src="../Resources/assets/images/Fig2.png" class="img-fluid border border-primary" alt="humidity chart">
+                      <figcaption class="figure-caption text-center">Humidity</figcaption>
+                    </figure>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="../visualisations/cloudiness.html">
+                    <figure class="figure">
+                      <img src="../Resources/assets/images/Fig3.png" class="img-fluid "  alt="cloudiness chart">
+                      <figcaption class="figure-caption text-center">Cloudiness</figcaption>
+                    </figure>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="../visualisations/wind_speed.html">
+                    <figure class="figure">
+                      <img src="../Resources/assets/images/Fig4.png" class="img-fluid" alt="wind speed chart">
+                      <figcaption class="figure-caption text-center">Windspeed</figcaption>
+                    </figure>
+                  </a>
+                </div>
               </div>
             </div>
+          </div>
         </div>
-    </div>
-    
+
+      </div>
 </body>
 </html>
